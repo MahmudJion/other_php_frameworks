@@ -26,5 +26,6 @@ return [
     'Laminas\Validator',
     'Laminas\DeveloperTools',
     'Laminas\Diactoros',
+    'Laminas\ZendFrameworkBridge',
     'Application',
 ];
