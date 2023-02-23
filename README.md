@@ -49,3 +49,25 @@ Support for a variety of databases, including MySQL, PostgreSQL, and SQLite
 -> An active community and a wealth of online resources, including documentation, tutorials, and forums.
 
 ### cakephp
+
+CakePHP is a free and open-source web application framework written in PHP. It follows the Model-View-Controller (MVC) architectural pattern and provides an elegant and simple coding approach for developing robust web applications. Some of the key features of CakePHP include:
+
+-> CRUD (Create, Read, Update, Delete) framework
+
+-> Model, View, Controller (MVC) architecture
+
+-> ORM (Object-Relational Mapping)
+
+-> Built-in validation framework
+
+-> Authentication and Authorization framework
+
+-> Access control lists (ACL)
+
+-> Security features such as form tampering protection, input validation, and SQL injection prevention
+Caching
+
+-> Localization and internationalization support
+Built-in tools for testing, debugging, and profiling
+
+CakePHP also has an active community that provides support, documentation, and plugins for extending the framework's functionality.
