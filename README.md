@@ -31,4 +31,21 @@ In addition to the core framework, Zend also provides a number of specialized to
 
 ### yii
 
+Yii is a high-performance, component-based PHP framework for web development. It is an open-source, object-oriented framework that follows the Model-View-Controller (MVC) architectural pattern.
+
+Yii is designed to be highly extensible and customizable, with a modular structure that allows developers to use only the components they need for their specific application. It includes many built-in features for common web development tasks, such as database access, caching, authentication, and internationalization. Yii also includes tools for creating RESTful APIs and provides support for testing using PHPUnit.
+
+Some of the key features of Yii include:
+
+-> Fast performance due to its efficient caching and lazy-loading mechanisms
+
+-> A modular structure that allows for easy customization and extension
+
+-> A powerful command-line tool, called Gii, for generating code and scaffolding
+
+-> Built-in support for RBAC (Role-Based Access Control)
+Support for a variety of databases, including MySQL, PostgreSQL, and SQLite
+
+-> An active community and a wealth of online resources, including documentation, tutorials, and forums.
+
 ### cakephp
