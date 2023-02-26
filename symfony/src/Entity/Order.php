@@ -32,7 +32,7 @@ class Order
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\OrderItem", mappedBy="order", orphanRemoval=true, cascade={"persist"})
      */
-    private $orderItems;
+    private $orderItem;
 
     public function __construct()
     {
