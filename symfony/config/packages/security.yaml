@@ -55,7 +55,7 @@ security:
                 # # session (for example when the users access directly to the login page).
                 # default_target_path: blog_index
 
-            anonymous: true
+            # anonymous: true
             provider: app_user_provider
             form_login:
                 login_path: login
