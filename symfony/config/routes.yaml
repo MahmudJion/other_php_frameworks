@@ -10,3 +10,8 @@ homepage:
     defaults:
         template: default/homepage.html.twig
         _locale: '%locale%'
+
+cart_add:
+    path: /cart/add/{id}
+    controller: App\Controller\CartController::add
+    methods: ['POST']
