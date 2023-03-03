@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>{{ product.name }}</h1>
+    <p>{{ product.description }}</p>
+    <p>Price: {{ product.price }}</p>
+    <form action="{{ path('cart_add', {id: product.id}) }}" method="post">
+        <button type="submit">Add to Cart</button>
+    </form>
+{% endblock %}
