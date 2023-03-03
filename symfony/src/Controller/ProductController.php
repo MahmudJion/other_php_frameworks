@@ -11,6 +11,8 @@ class ProductController extends AbstractController
 {
     /**
      * @Route("/product", name="app_product")
+     * @Route("/products", name="product_listings")
+     * @Route("/products/{id}", name="product_details")
      */
     public function index(): Response
     {
@@ -28,4 +30,16 @@ class ProductController extends AbstractController
         ]);
 
     }
+
+    public function details(Product $product)
+    {
+        // $product will contain the correct Product entity based on the 'id' parameter
+        // that was passed in the URL
+
+        // render the 'details.html.twig' template with the product entity
+        return $this->render('product/details.html.twig', [
+            'product' => $product,
+        ]);
+    }
+
 }
