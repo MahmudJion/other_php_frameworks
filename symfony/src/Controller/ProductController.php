@@ -1,5 +1,6 @@
 <?php
 
+use App\Entity\Product;
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -16,6 +17,11 @@ class ProductController extends AbstractController
         return $this->render('product/index.html.twig', [
             'controller_name' => 'ProductController',
         ]);
+
+
+        $products = $this->getDoctrine()
+            ->getRepository(Product::class)
+            ->findAll();
 
         return $this->render('product/listings.html.twig', [
             'products' => $products,
