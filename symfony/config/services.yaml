@@ -34,6 +34,9 @@ services:
     App\EventSubscriber\CommentNotificationSubscriber:
         $sender: '%app.notifications.email_sender%'
 
+    App\Service\Cart:
+        public: true
+
 when@test:
     services:
         test.user_password_hasher:
