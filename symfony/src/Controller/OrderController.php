@@ -21,4 +21,18 @@ class OrderController extends AbstractController
             'order' => $order,
         ]);
     }
+
+    /**
+     * @Route("/order/tracking/{id}", name="order_tracking")
+     */
+    public function tracking($id)
+    {
+        // Retrieve the order details from the database
+        $order = $this->getDoctrine()->getRepository(Order::class)->find($id);
+
+        // Render the order tracking page with order details
+        return $this->render('order/tracking.html.twig', [
+            'order' => $order,
+        ]);
+    }
 }
