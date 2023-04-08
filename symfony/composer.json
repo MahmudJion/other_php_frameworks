@@ -16,6 +16,7 @@
         "doctrine/orm": "^2.6",
         "erusev/parsedown": "^1.6",
         "sensio/framework-extra-bundle": "^6.1",
+        "sonata-project/admin-bundle": "*",
         "symfony/apache-pack": "^1.0",
         "symfony/asset": "^5.3",
         "symfony/console": "^5.3",
