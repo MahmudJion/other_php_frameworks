@@ -15,3 +15,16 @@ cart_add:
     path: /cart/add/{id}
     controller: App\Controller\CartController::add
     methods: ['POST']
+
+# ...
+admin_area:
+    resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'
+    prefix: /admin
+
+admin_area_dashboard:
+    path: /admin/dashboard
+    controller: SonataAdminBundle:Core:dashboard
+
+app_admin_product:
+    resource: App\Admin\ProductAdmin
+    prefix: /admin/product
